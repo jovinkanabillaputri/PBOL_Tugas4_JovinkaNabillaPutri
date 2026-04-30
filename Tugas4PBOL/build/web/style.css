@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #e5e5e5;
+}
+
+/* wrapper */
+.container {
+    max-width: 420px;
+    margin: 50px auto;
+    padding: 0 15px;
+}
+
+/* card */
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* judul */
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* div card */
+* {
+    box-sizing: border-box;
+}
+
+/* label */
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* input */
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* textarea */
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+/* button */
+button {
+    width: 100%;
+    margin-top: 18px;
+    padding: 12px;
+    background: #2f6fbd;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #255ea3;
+}
